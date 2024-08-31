@@ -4,7 +4,7 @@ const user=({
 })
 function passobject(anyobj)
 {
-    console.log(`Logged in username is ${user.username} and his age is ${user.age}`)
+    console.log(`Logged in username is ${anyobj.username} and his age is ${anyobj.age}`)
 
 }
-passobject()
+passobject(user)
