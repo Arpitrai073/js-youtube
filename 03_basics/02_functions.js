@@ -8,3 +8,11 @@ function passobject(anyobj)
 
 }
 passobject(user)
+// let a=2;
+// let b="hi";
+// let c=console.log(a/b) 
+const addTwo=function(num)
+{
+    return num+2
+}
+console.log(addTwo(5))
