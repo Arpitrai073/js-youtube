@@ -16,3 +16,4 @@ const addTwo=function(num)
     return num+2
 }
 console.log(addTwo(5))
+//in this we cannot call function before its declaration
